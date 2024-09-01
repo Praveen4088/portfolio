@@ -520,7 +520,7 @@
 .services .box-container .box {
   background-color: var(--light-bg);
   padding: 2.5rem;
-  height: 64rem; 
+  height: 72rem; 
   text-align: justify;
   box-shadow: var(--box-shadow);
   transition: transform 0.5s ease;
@@ -540,7 +540,8 @@
 }
 
 .services .box-container .box:hover {
-  transform: rotateY(15deg) rotateX(-15deg);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  transform: scale(1.05);
 }
 
 .services .box-container .box .icon {
@@ -850,7 +851,8 @@ box-shadow: var(--box-shadow);
   .services .box-container .box {
     min-width: 80%;
     margin-right: 1rem;
-    scroll-snap-align: start;
+    height: 100%
+    scroll-snap-align: start;;
   }
     
   .body-title {
